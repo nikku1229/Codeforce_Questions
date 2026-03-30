@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-  int n;
-  cin >> n;
+  string s;
+  cin >> s;
 
-  int sn = (n + n * n) / 2;
+  cout << "Hello, " << s;
 
-  cout << sn;
+  return 0;
 }
